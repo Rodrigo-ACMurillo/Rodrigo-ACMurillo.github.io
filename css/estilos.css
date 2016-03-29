@@ -27,7 +27,7 @@ html, body {
 
 /* Estilos para columna izquierda */
 .izquierda {
-	/* Fondo de imagen tomada de: */
+	/* Fondo de imagen tomada de: https://rpk.io */
 	background:linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)),url(../img/home-bg.jpg) no-repeat;
 	background-size:cover, cover;
 	/* Flexbox */
@@ -241,7 +241,8 @@ img.social:hover {
 
 /* Estilos para columna derecha */
 .derecha {
-	padding: 20px;
+	margin: auto; 
+	padding: 50px;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
