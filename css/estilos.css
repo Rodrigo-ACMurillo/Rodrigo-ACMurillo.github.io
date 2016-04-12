@@ -9,21 +9,39 @@ html, body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-button {
+a {
+	text-decoration: none;
+}
+
+button.projectos {
 	border: .1em dotted rgba(255,255,255,.7);
 	padding: 5px;
 	width: 6.3em;
 	font-size: 1.4em;
 	border-radius: 1px;
 	background-color: transparent;
-	color: #EF5350;
 	margin-bottom: 60px;
 }
 
-button:hover {
-	background-color: rgba(255,255,255,.1);
-	border-color: #EF5350;
+button.cerrar {
+	border: none;
+	color: rgba(255,255,255,.8);
+	background-color: transparent;
+	padding: 20px;
+}
+
+button.projectos a {
+	color: #EF5350;
+}
+
+button.projectos a:hover {
 	color: rgba(255,255,255,.6);
+}
+
+button.projectos:hover {
+	background-color: rgba(255,255,255,.1);
+	color: rgba(255,255,255,.6);
+	border-color: #EF5350;
 }
 
 .contenedor {
