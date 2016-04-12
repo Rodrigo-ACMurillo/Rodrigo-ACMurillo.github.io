@@ -23,7 +23,7 @@ button.projectos {
 	margin-bottom: 60px;
 }
 
-button.cerrar {
+.cerrar {
 	border: none;
 	color: rgba(255,255,255,.8);
 	background-color: transparent;
