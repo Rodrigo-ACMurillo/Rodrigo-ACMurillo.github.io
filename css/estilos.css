@@ -86,109 +86,12 @@ img.social:hover {
     transition: height 0.3s;
 }
 
-.tooltip:hover:after{
-    background: #333;
-    background: rgba(0,0,0,.8);
-    border-radius: 5px;
-    top: 26px;
-    color: #fff;
-    content: attr(title);
-    left: 15%;
-    padding: 5px 15px;
-    position: absolute;
-    z-index: 98;
-    width: 220px;
-    font-size: .6em;
-}
-
-.tooltip:hover:before{
-    border: solid;
-    border-color: #000 transparent;
-    border-width: 6px 6px 0 6px;
-    top: 49px;
-    content: "";
-    right: 30%;
-    position: absolute;
-    z-index: 99;
-}
-
-/* Estilos para el tooltip de Superhéroe */
-@media (min-width: 425px) and (max-width: 599px) {
-	.tooltip:hover:after{
-	    width: 240px;
-	    font-size: .7em;
-	}
-	.tooltip:hover:before{
-	    top: 49px;
-	    right: 35%;
-	}
-} 
-
-@media (min-width: 600px) and (max-width: 767px) {
-	.tooltip:hover:after{
-	    left: 25%;
-	    width: 270px;
-	    font-size: .77em;
-	}
-	.tooltip:hover:before{
-	    top: 53px;
-	    right: 40%;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 799px) {
-	.tooltip:hover:after{
-	    left: 30%;
-	    width: 270px;
-	    font-size: .77em;
-	}
-	.tooltip:hover:before{
-	    right: 45%;
-	    top: 53px;
-	}	
-}
-
-@media (min-width: 800px) and (max-width: 969px) {
-	.tooltip:hover:after{
-	    left: 6%;
-	    top: 36px;
-	    width: 260px;
-	    font-size: .6em;
-	}
-	.tooltip:hover:before{
-	    right: 75%;
-	    top: 82px;
-	}
-}
-
-@media (min-width: 970px) {
-	.tooltip:hover:after{
-	    left: 6%;
-	    top: 104px;
-	    width: 360px;
-	    font-size: .6em;
-	}
-	.tooltip:hover:before{
-	    right: 75%;
-	    top: 132px;
-	}
-}
-
 /* Portrait */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-	.tooltip:hover:after{
-	    left: 30%;
-	    top: 129px;
-	    font-size: .6em;
-	}
-	.tooltip:hover:before{
-	    right: 45%;
-	    top: 152px;
-	}
 	.derecha .img-right {
 		text-align: center;
 	}
@@ -246,9 +149,9 @@ img.social:hover {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-flex-flow: column nowrap;
-	    -ms-flex-flow: column nowrap;
-	        flex-flow: column nowrap;
+	-webkit-flex-flow: column wrap;
+	    -ms-flex-flow: column wrap;
+	        flex-flow: column wrap;
 	-webkit-align-items: flex-start;
 	    -ms-flex-align: start;
 	        align-items: flex-start;
