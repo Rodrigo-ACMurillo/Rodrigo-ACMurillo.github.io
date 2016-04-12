@@ -20,6 +20,12 @@ button {
 	margin-bottom: 60px;
 }
 
+button:hover {
+	background-color: rgba(255,255,255,.1);
+	border-color: #EF5350;
+	color: rgba(255,255,255,.6);
+}
+
 .contenedor {
 	height: 100%;
 	width: 100%;
