@@ -9,6 +9,17 @@ html, body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+button {
+	border: .1em dotted rgba(255,255,255,.7);
+	padding: 5px;
+	width: 6.3em;
+	font-size: 1.4em;
+	border-radius: 1px;
+	background-color: transparent;
+	color: #EF5350;
+	margin-bottom: 60px;
+}
+
 .contenedor {
 	height: 100%;
 	width: 100%;
@@ -73,7 +84,6 @@ html, body {
 	display: flex;
 	text-align: center;
 	margin-top: 7px;
-	margin-bottom: 60px;
 }
 
 img.social {
