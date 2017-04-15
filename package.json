@@ -1,0 +1,24 @@
+{
+  "name": "rodrigoacmurillo",
+  "version": "1.0.0",
+  "description": "package.json for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-ACMurillo/rodrigo-acmurillo.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "server",
+    "static"
+  ],
+  "author": "Rodrigo Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-ACMurillo/rodrigo-acmurillo.github.io/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-ACMurillo/rodrigo-acmurillo.github.io#readme"
+}
