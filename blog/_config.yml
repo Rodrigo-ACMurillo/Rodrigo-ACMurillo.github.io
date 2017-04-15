@@ -34,5 +34,5 @@ exclude:
   - Gemfile.lock
   - .gitignore
   - Rakefile
-  - config.ru 
+  - config.ru
   - vendor
